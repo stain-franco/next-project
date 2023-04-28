@@ -8,7 +8,7 @@ const Page: NextPageWithLayout = () => {
     <>
       <main>
         <div className="flex flex-col items-center p-10">
-          <h1 className="text-[62px] font-medium">We love to help yot!</h1>
+          <h1 className="text-[62px] font-medium">We love to help yout!</h1>
           <h6 className="pt-10 font-bold">
             Global citizenship and residency at your fingertips
           </h6>
