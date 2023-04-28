@@ -35,11 +35,15 @@ const Page: NextPageWithLayout = () => {
           </p>
         </div>
       </div>
-      <div className="bg-blue-700 transform skew-y-4 bg-gradient-to-b from-transparent to-blue-700">
-        <section className="my-20 py-20 bg-gray-100 transform skew-y-8">
-          <div className="flex justify-evenly items-center flex-wrap gap-10 transform skew-y-4">
-            <Image src={imgAbout} alt="Picture of the author" className="" />
-            <div className="">
+      <div className="xs:skew-y-6 xl:skew-y-3 bg-gradient-to-b from-sky-900 from-50% to-50% xs:mb-12 lg:mb-14 ">
+        <section className="xs:px-3 xs:py-28 lg:py-52 xl:px-24 bg-gray-100 xs:-skew-y-12 xl:-skew-y-6">
+          <div className="flex justify-evenly items-center flex-wrap gap-10 xs:skew-y-6 xl:skew-y-3">
+            <Image
+              src={imgAbout}
+              alt="Picture of the author"
+              className="xs:min-w-min  md:w-1/2 lg:max-w-lg "
+            />
+            <div className="xs:min-w-min md:w-1/2 lg:max-w-l">
               <h2 className="text-xl font-bold">
                 The most valuable investment you may ever make
               </h2>
@@ -63,7 +67,7 @@ const Page: NextPageWithLayout = () => {
           </p>
           <br />
           <p>
-            We’ll assist you from start to ﬁnish, ensuring you have the insight
+            We’ll assist you from start to finish, ensuring you have the insight
             and knowledge needed to succeed.
           </p>
         </div>

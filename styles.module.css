@@ -1,7 +1,7 @@
 .container {
   background-color: #4169e1;
   transform: skew(0, 4deg);
-  background: linear-gradient(0deg, #ffffff00 54%, #4169e1 54%);
+  background: linear-gradient(0deg, #ffffff00 50%, #4169e1 50%);
 }
 
 .second__section {
