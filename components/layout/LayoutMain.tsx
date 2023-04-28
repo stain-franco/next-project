@@ -2,11 +2,11 @@ import { ReactNode } from 'react';
 import Footer from '../Footer';
 import Navbar from '../Navbar';
 
-interface LayoutMain {
+interface ILayoutMain {
   children: ReactNode;
 }
 
-const LayoutMain = ({ children }: LayoutMain) => {
+const LayoutMain = ({ children }: ILayoutMain) => {
   return (
     <>
       <Navbar />
