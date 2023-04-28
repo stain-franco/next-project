@@ -1,4 +1,5 @@
-import Image from 'next/image';
+// import Image from 'next/image';
+import Link from 'next/link';
 import type { ReactElement } from 'react';
 import Layout from '../components/layout/LayoutMain';
 import type { NextPageWithLayout } from './_app';
@@ -16,7 +17,7 @@ const Page: NextPageWithLayout = () => {
         </div>
       </main>
       <div className="flex flex-col items-center">
-        <Image src="" alt="Picture of the author" width={500} height={500} />
+        {/* <Image src="" alt="Picture of the author" width={500} height={500} /> */}
 
         <div className='flex flex-col items-center pb-11'>
           <h1 className="text-[36px] font-bold text-blue-700">
@@ -33,6 +34,7 @@ const Page: NextPageWithLayout = () => {
         </div>
       </div>
       <div className="flex justify-center m-auto pt-10">
+
         <div className="max-w-sm p-6">
           <h1>Seamless service targeting your unique needs</h1>
           <br />
@@ -47,23 +49,32 @@ const Page: NextPageWithLayout = () => {
           </p>
         </div>
         <div className="max-w-sm p-6 flex flex-col items-center bg-white border border-rose-600 rounded-md">
-          <a href="#">
+          <Link href="#">
             <h5 className="mb-2 text-2xl font-bold text-blue-700">
               Residency Programs
             </h5>
-          </a>
+          </Link>
           <p className="mb-3 font-normal ">
             Mexican residency safeguards against future instability and opens up
             a world of opportunities for investors and their families. A Golden
             Visa permit provides visa-free access to many countries across the
             globe.
           </p>
-          <a
+          <Link
             href="#"
             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Get started
-          </a>
+          </Link>
+          
+        </div>
+      </div>
+      <div>
+        <h1>Why Choose Us</h1>
+        <div className='flex flex-col'>
+        <div className='max-w-sm p-6 bg-white border border-rose-600 rounded-md'></div>
+        <div className='max-w-sm p-6 bg-white border border-rose-600 rounded-md'></div>
+        <div className='max-w-sm p-6 bg-white border border-rose-600 rounded-md'></div>
         </div>
       </div>
     </>

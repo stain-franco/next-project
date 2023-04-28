@@ -1,4 +1,5 @@
-import LayoutHeader from "@/components/layout/LayoutHeader";
+
+import LayoutMain from '@/components/layout/LayoutMain';
 import { ReactElement } from 'react';
 import type { NextPageWithLayout } from '../_app';
 
@@ -11,7 +12,7 @@ const index: NextPageWithLayout = () => {
 };
 
 index.getLayout = function getLayout(index: ReactElement) {
-  return <LayoutHeader>{index}</LayoutHeader>;
+  return <LayoutMain>{index}</LayoutMain>;
 };
 
 export default index;
