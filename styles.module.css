@@ -1,0 +1,39 @@
+.container {
+  background-color: #4169e1;
+  transform: skew(0, 4deg);
+  background: linear-gradient(0deg, #ffffff00 50%, #4169e1 50%);
+}
+
+.second__section {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: aliceblue;
+  transform: skew(0, -8deg);
+}
+
+.description {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3.125rem;
+  transform: skew(0, 4deg);
+}
+
+.image {
+  width: 10rem;
+  height: 10rem;
+  background-color: cadetblue;
+}
+
+.text {
+  width: 25em;
+  display: flex;
+  flex-direction: column;
+}
+
+.text h2 {
+  font-size: 1.5rem;
+}
