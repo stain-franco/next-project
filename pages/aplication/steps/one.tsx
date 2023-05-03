@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import type { ReactElement } from 'react';
-import imgAbout from "../../../public/images/Rectangle1.png";
+import imgAbout from "../../../public/images/Rectangle1Mariachi.png";
 
 const StepOne = () => {
   return (
