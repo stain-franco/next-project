@@ -1,7 +1,5 @@
-import LayoutHeader from "@/components/layout/LayoutHeader";
-import { ReactElement } from 'react';
+
 import type { NextPageWithLayout } from '../_app';
-import Link from 'next/link';
 import Image from 'next/image';
 import imgAbout from "../../public/images/Rectangle1.png";
 
@@ -68,7 +66,6 @@ const index: NextPageWithLayout = () => {
     </div>
   );
 };
-
 
 
 export default index;
