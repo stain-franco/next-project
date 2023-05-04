@@ -6,6 +6,7 @@ module.exports = {
   ],
   // Ensure these match with .storybook/preview.js
   theme: {
+<<<<<<< HEAD
     extend: {
       colors: {
         'White': '#ffffff',
