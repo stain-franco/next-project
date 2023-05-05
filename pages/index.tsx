@@ -71,7 +71,7 @@ const Page: NextPageWithLayout = () => { //
         <section className="xs:px-3 xs:py-28 lg:py-52 xl:px-24 bg-white xs:-skew-y-12 xl:-skew-y-6">
           <div className="flex justify-evenly items-center flex-wrap gap-10 xs:skew-y-6 xl:skew-y-3">
             <Image
-              src="/images/Rectangle1.png"
+              src="/images/fatherSon.png"
               alt="Picture of the author"
               className="xs:min-w-min   lg:max-w-lg "
               width={404}
