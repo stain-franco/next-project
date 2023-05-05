@@ -73,11 +73,11 @@ const Page: NextPageWithLayout = () => { //
             <Image
               src="/images/Rectangle1.png"
               alt="Picture of the author"
-              className="xs:min-w-min  md:w-1/2 lg:max-w-lg "
+              className="xs:min-w-min   lg:max-w-lg "
               width={404}
               height={287}
             />
-            <div className="xs:min-w-min md:w-1/2 lg:max-w-lg">
+            <div className="xs:min-w-min  lg:max-w-lg">
               <h2 className="text-[32px] font-bold text-DarkBlue">
                 The most valuable investment you may ever make
               </h2>
