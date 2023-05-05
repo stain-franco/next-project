@@ -4,14 +4,17 @@ import type { ReactElement } from 'react';
 import Layout from '../components/layout/LayoutMain';
 import type { NextPageWithLayout } from './_app';
 
-const Page: NextPageWithLayout = () => {
+const Page: NextPageWithLayout = () => { //
   return (
-    <>
-      <main className="bg-backgroud bg-[url('/images/Group.png')] bg-no-repeat">
-        <div className="flex flex-col items-center p-10">
-          <h1 className="text-[62px] font-medium leading-[84.57px]">
+    <div className='m-auto relative w-full bg-backgroud'>
+     <div className='w-[1228px] m-auto'>
+     <main className="bg-backgroud bg-[url('/images/Group.png')] bg-no-repeat ">
+        <div className="flex flex-col items-center p-10 ">
+          <h1 className="text-[62px] font-medium leading-[84.57px] sm:block hidden">
             We love to help yout!
           </h1>
+          <h1 className='text-[62px] font-medium leading-[84.57px] sm:hidden '>Let’s  do it  together!</h1>
+          
           <div className="flex m-auto ">
             <Image
               src="/images/Group 2.png"
@@ -29,15 +32,23 @@ const Page: NextPageWithLayout = () => {
             />
           </div>
           <div className='flex items-center m-auto'>
-          <Image
-              src="/images/Group 12.png"
-              alt="Picture of the author"
-              className="pr-[60px]"
-              width={237}
-              height={237}
-            />
+          <div className='mr-[77px]'>
+      <div className=" w-[237px] h-[237px] rounded-full bg-white flex flex-col justify-center items-center ">
+        <h3 className="text-blue font-Inter text-justify text-3xl "><p className='text-[20px]'>👋</p>Say,<br></br>Hello!
+        </h3>
+        <button className="sm:w-[57px] sm:h-[57px] rounded-full bg-blue ml-[164px] mt-[164px] absolute">
+        <Image
+          src="/images/IconF.png"
+          alt="Picture of the author"
+          className="ml-[16px] mt-[6px] " 
+          width={23.97}
+          height={24}
+        />
+        </button>
+      </div>
+      </div>
             <div>
-            <h6 className="pt-10 font-bold leading-[25.1px]  ">
+            <h6 className="sm:pt-[10px] font-bold sm:leading-[25.1px] leading-[19px] bg-blue sm:bg-backgroud">
               Global citizenship and residency at your fingertips
             </h6>
             <p className="font-normal leading-[25.1px]">
@@ -55,17 +66,18 @@ const Page: NextPageWithLayout = () => {
           
         </div>
       </main>
+      
       <div className="xs:skew-y-6 xl:skew-y-3 bg-gradient-to-b from-blue from-50% xs:mb-12 lg:mb-14 ">
-        <section className="xs:px-3 xs:py-28 lg:py-52 xl:px-24 bg-gray-100 xs:-skew-y-12 xl:-skew-y-6">
+        <section className="xs:px-3 xs:py-28 lg:py-52 xl:px-24 bg-white xs:-skew-y-12 xl:-skew-y-6">
           <div className="flex justify-evenly items-center flex-wrap gap-10 xs:skew-y-6 xl:skew-y-3">
             <Image
-              src="/images/Rectangle1.png"
+              src="/images/fatherSon.png"
               alt="Picture of the author"
-              className="xs:min-w-min  md:w-1/2 lg:max-w-lg "
-              width={1000}
-              height={1000}
+              className="xs:min-w-min   lg:max-w-lg "
+              width={404}
+              height={287}
             />
-            <div className="xs:min-w-min md:w-1/2 lg:max-w-l">
+            <div className="xs:min-w-min  lg:max-w-lg">
               <h2 className="text-[32px] font-bold text-DarkBlue">
                 The most valuable investment you may ever make
               </h2>
@@ -79,6 +91,7 @@ const Page: NextPageWithLayout = () => {
           </div>
         </section>
       </div>
+      <div className="">
       <div className="flex justify-center pt-10 bg-Ligthgray">
         <div className="max-w-md w-auto mr-[70px]">
           <h1 className="text-[32px] font-bold text-DarkBlue w-[279px] h-[105px] top-[1407px] left-[190px] ">
@@ -130,6 +143,7 @@ const Page: NextPageWithLayout = () => {
           </div>
         </div>
       </div>
+      </div>
       <div className="bg-Ligthgray pt-[94px]  pb-[113px]">
         <div className="w-full flex justify-center ">
           <h1 className="mb-2 text-2xl font-bold text-DarkBlue ">
@@ -178,15 +192,15 @@ const Page: NextPageWithLayout = () => {
           </Link>
         </div>
       </div>  
-      <div className="bg-[url('/images/Rectangle9.png')]">
-      <section className="flex flex-col justify-center items-center">
+      <div className="bg-[url('/images/Rectangle9.png')] bg-no-repeat bg-cover bg-center ">
+      <section className="flex flex-col justify-center items-center ">
         <div className="mx-auto max-w-screen-xl px-10 py-16 sm:px-6 lg:px-8 w-[50%] ">
           <div className="">
             <div className="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12 ">
               <form action="" className="space-y-4 ">
                 <div>
                   <input
-                    className="w-full rounded-lg border-gray-200 p-3 text-sm"
+                    className="w-full rounded-lg border-gray-200 border-none p-3 text-sm "
                     placeholder="Your name"
                     type="text"
                     id="name"
@@ -219,8 +233,26 @@ const Page: NextPageWithLayout = () => {
           </div>
         </div>
       </section>
+      
+      
       </div>
-    </>
+      <div className='absolute sm:bottom-[-116px] right-[71px] lg:block hidden '>
+      <div className=" sm:w-[237px] sm:h-[237px] rounded-full bg-white flex flex-col justify-center items-center ">
+        <h3 className="text-blue font-Inter text-justify text-3xl "><p className='text-[20px]'>👋</p>Say,<br></br>Hello!
+        </h3>
+        <button className="sm:w-[57px] sm:h-[57px] rounded-full bg-blue ml-[164px] mt-[164px] absolute">
+        <Image
+          src="/images/IconF.png"
+          alt="Picture of the author"
+          className="ml-[16px] mt-[6px]" 
+          width={23.97}
+          height={24}
+        />
+        </button>
+      </div>
+      </div>
+     </div>
+    </div>
   );
 };
 
