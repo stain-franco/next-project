@@ -1,0 +1,26 @@
+[
+  {
+    "img": "/images/auth/1person.png",
+    "quote": "“This product allows you to collaborate, experiment, and test much more effectively and efficiently.”",
+    "name": "John ",
+    "country": "DINAMARCA"
+  },
+  {
+    "img": "/images/auth/2person.png",
+    "quote": "“We are designing for a global user base...  we can get feedback not just from drivers we see in San Francisco but from all around the world.”",
+    "name": "Kathrine Joy",
+    "country": "CHINA"
+  },
+  {
+    "img": "/images/auth/3person.png",
+    "quote": "“This product is a critical tool for us to understand our users and identify any pain points where they might be getting stuck.”",
+    "name": "Mike Abla",
+    "country": "VENEZUELA"
+  },
+  {
+    "img": "/images/auth/4person.png",
+    "quote": "“I used to have a bunch of different tools I had to pay for, with this tool you get everything in one bundle.”",
+    "name": "Philis Jan",
+    "country": "ESPAÑA"
+  }
+]
