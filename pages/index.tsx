@@ -229,7 +229,7 @@ const Page: NextPageWithLayout = () => { //
             </div>
           </div>
           <div className="sm:w-[241px] sm:h-[219px] sm:p-6 bg-white border border-gray-200 rounded-[10px]">
-            <h1 className="font-bold text-DarkBlue sm:mb-[18px] sm:text-center sm:w-[150px] sm:h-[22px] sm:text-center">Secure and Safe</h1>
+            <h1 className="font-bold text-DarkBlue sm:mb-[18px] sm:w-[150px] sm:h-[22px] sm:text-center">Secure and Safe</h1>
             <div className='sm:w-[190px] sm:h-[120px] sm:font-light sm:text-center'>
               World-class data centers and state-of-the-art security. Your
               credit card information will never be exposed to any government
