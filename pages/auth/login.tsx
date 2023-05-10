@@ -114,8 +114,12 @@ const login = () => {
             centeredSlides
             pagination={{ clickable: true }}
             direction="horizontal"
-            rewh
             simulateTouch
+            rewind
+            autoplay={{
+              delay: 6000,
+              disableOnInteraction: false,
+            }}
             slidesPerView={1}
             className="xs:relative z-10 xs:top-[5%] sm:top-[14%] md:-top-[5%] lg:block lg:static lg:p-0 lg:h-full"
           >
