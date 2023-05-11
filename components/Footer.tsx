@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="bg-DarkBlue flex  pl-[98px]  justify-between h-[198px] m-auto">
       <div className='flex items-center pt-[40px] pb-[40px]'>
-      <div className="bg-white rounded-full w-[55px] h-[55px] flex flex-col justify-center items-center">
+      <div className="bg-white rounded-full w-[55px] h-[55px] flex flex-col justify-center items-center ">
         <Image
           src="/images/Vector(1).png"
           alt="Picture of the author"
@@ -19,7 +19,7 @@ const Footer = () => {
         contact.forwork@gmail.com
       </p>
       </div>
-      <div className='flex flex-col justify-center mr-[23px] text-white sm:hidden'>
+      <div className='flex flex-col justify-center mr-[23px]  text-white sm:hidden'>
       <Link href="/" title="Home" className='mr-4'>Terms and Condition</Link>
       <br />
       <Link href="/" title="Home" className='mr-4'>Privacy polity</Link>
