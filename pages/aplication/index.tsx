@@ -1,9 +1,6 @@
-
 import type { NextPageWithLayout } from '../_app';
 import Image from 'next/image';
 import imgAbout from "../../public/images/Rectangle1Mariachi.png";
-
-
 const index: NextPageWithLayout = () => {
   return (
     <div className="mr-auto  bg-backgroud h-[1214px] relative w-full ">
@@ -16,11 +13,9 @@ const index: NextPageWithLayout = () => {
         <div className="text-center text-[32px] text-DarkBlue w-full font-bold font-Nunito top-[155px] absolute">
           <h2>Get your Mexican Residence</h2>
         </div>
-
         <div className="flex justify-center w-full absolute sm:top-[203px] top-[249px] ">
           <div className="bg-blue w-7 h-2 "></div>
         </div>
-
         <div className="sm:w-516 w-[380px] text-center absolute sm:top-[231px] top-[280px] font-Mulish">
           <p>
             Lifestyle choices vary, which is why we take the time to learn about
@@ -100,6 +95,4 @@ const index: NextPageWithLayout = () => {
     </div>
   );
 };
-
-
 export default index;
