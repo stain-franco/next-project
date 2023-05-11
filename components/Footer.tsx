@@ -21,6 +21,7 @@ const Footer = () => {
       </div>
       <div className='flex flex-col justify-center mr-[23px]  text-white sm:hidden'>
       <Link href="/" title="Home" className='mr-4'>Terms and Condition</Link>
+      
       <br />
       <Link href="/" title="Home" className='mr-4'>Privacy polity</Link>
       <br />
