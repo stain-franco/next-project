@@ -6,7 +6,7 @@ import imgAbout from "../../public/images/Rectangle1Mariachi.png";
 
 const index: NextPageWithLayout = () => {
   return (
-    <div className="mr-auto b bg-backgroud h-[1214px] relative w-full">
+    <div className="mr-auto  bg-backgroud h-[1214px] relative w-full ">
       <div className="bg-backgroud absolute">
         <h1 className="text-3xl font-Nunito font-bold sm:left-[96px] left-[32px] absolute sm:top-[38px] top-[23px]">
           resimex

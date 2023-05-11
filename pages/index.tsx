@@ -4,6 +4,7 @@ import type { ReactElement } from 'react';
 import Layout from '../components/layout/LayoutMain';
 import type { NextPageWithLayout } from './_app';
 
+
 const Page: NextPageWithLayout = () => {
   return (
     <>
@@ -28,8 +29,8 @@ const Page: NextPageWithLayout = () => {
               height={41}
             />
           </div>
-          <div className='flex items-center m-auto'>
-          <Image
+          <div className="flex items-center m-auto">
+            <Image
               src="/images/Group 12.png"
               alt="Picture of the author"
               className="pr-[60px]"
@@ -37,22 +38,21 @@ const Page: NextPageWithLayout = () => {
               height={237}
             />
             <div>
-            <h6 className="pt-10 font-bold leading-[25.1px]  ">
-              Global citizenship and residency at your fingertips
-            </h6>
-            <p className="font-normal leading-[25.1px]">
-              Everyone has the opportunity to thrive, no matter where home is
-            </p>
-            <Image
-            src="/images/Group 25.png"
-            alt="Picture of the author"
-            className="left-[513px] top-[537px] pt-[45px]"
-            width={398.74}
-            height={65}
-          />
+              <h6 className="pt-10 font-bold leading-[25.1px]  ">
+                Global citizenship and residency at your fingertips
+              </h6>
+              <p className="font-normal leading-[25.1px]">
+                Everyone has the opportunity to thrive, no matter where home is
+              </p>
+              <Image
+                src="/images/Group 25.png"
+                alt="Picture of the author"
+                className="left-[513px] top-[537px] pt-[45px]"
+                width={398.74}
+                height={65}
+              />
             </div>
           </div>
-          
         </div>
       </main>
       <div className="xs:skew-y-6 xl:skew-y-3 bg-gradient-to-b from-blue from-50% xs:mb-12 lg:mb-14 ">
@@ -71,7 +71,7 @@ const Page: NextPageWithLayout = () => {
               </h2>
               <p className="font-light text-[16px] text-black leading-[20.08px]">
                 Resimex is a multidisciplinary firm offering bespoke residence
-                and citizenship solutions in Mexico. Whether it’s matching you
+                and citizenship solutions in Mexico. Whether it s matching you
                 to your ideal investment, Golden Visa program or tax benefit, we
                 help investors successfully uproot their lives and lifestyles.
               </p>
@@ -94,7 +94,7 @@ const Page: NextPageWithLayout = () => {
           </p>
           <br />
           <p className="font-light text-[16px] text-black leading-[20.08px]">
-            We’ll assist you from start to ﬁnish, ensuring you have the insight
+            We ll assist you from start to ﬁnish, ensuring you have the insight
             and knowledge needed to succeed.
           </p>
         </div>
@@ -141,23 +141,29 @@ const Page: NextPageWithLayout = () => {
         </div>
         <div className="flex justify-center gap-5">
           <div className="w-[241px] h-[219px] p-6 bg-white border border-gray-200 rounded-[10px]">
-            <h1 className="font-bold text-DarkBlue pb-[18px]">Speed and Simplicity</h1>
-            <div className='w-[190px] h-[100px] font-light'>
+            <h1 className="font-bold text-DarkBlue pb-[18px]">
+              Speed and Simplicity
+            </h1>
+            <div className="w-[190px] h-[100px] font-light">
               Easy, traveler-friendly application process. Simple and much less
               complicated than dealing with foreign governments.
             </div>
           </div>
           <div className="w-[241px] h-[219px] p-6 bg-white border border-gray-200 rounded-[10px]">
-            <h1 className="font-bold text-DarkBlue pb-[18px]">Secure and Safe</h1>
-            <div className='w-[190px] h-[120px] font-light'>
+            <h1 className="font-bold text-DarkBlue pb-[18px]">
+              Secure and Safe
+            </h1>
+            <div className="w-[190px] h-[120px] font-light">
               World-class data centers and state-of-the-art security. Your
               credit card information will never be exposed to any government
               websites!
             </div>
           </div>
           <div className="w-[241px] h-[219px] p-6 bg-white border border-gray-200 rounded-[10px]">
-            <h1 className="font-bold text-DarkBlue pb-[18px]">Awesome support</h1>
-            <div className='w-[190px] h-[120px] font-light'>
+            <h1 className="font-bold text-DarkBlue pb-[18px]">
+              Awesome support
+            </h1>
+            <div className="w-[190px] h-[120px] font-light">
               Our customer support is ready to help 24/7. We want you to enjoy
               your travels and avoid the stress of getting a residence!
             </div>
@@ -177,21 +183,21 @@ const Page: NextPageWithLayout = () => {
             </button>
           </Link>
         </div>
-      </div>  
+      </div>
       <div className="bg-[url('/images/Rectangle9.png')]">
-      <section className="flex flex-col justify-center items-center">
-        <div className="mx-auto max-w-screen-xl px-10 py-16 sm:px-6 lg:px-8 w-[50%] ">
-          <div className="">
-            <div className="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12 ">
-              <form action="" className="space-y-4 ">
-                <div>
-                  <input
-                    className="w-full rounded-lg border-gray-200 p-3 text-sm"
-                    placeholder="Your name"
-                    type="text"
-                    id="name"
-                  />
-                </div>
+        <section className="flex flex-col justify-center items-center">
+          <div className="mx-auto max-w-screen-xl px-10 py-16 sm:px-6 lg:px-8 w-[50%] ">
+            <div className="">
+              <div className="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12 ">
+                <form action="" className="space-y-4 ">
+                  <div>
+                    <input
+                      className="w-full rounded-lg border-gray-200 p-3 text-sm"
+                      placeholder="Your name"
+                      type="text"
+                      id="name"
+                    />
+                  </div>
                   <div>
                     <input
                       className="w-full rounded-lg border-gray-200 p-3 text-sm"
@@ -200,25 +206,26 @@ const Page: NextPageWithLayout = () => {
                       id="email"
                     />
                   </div>
-                <div>
-                  <textarea
-                    className="w-full rounded-lg border-gray-200 p-3 text-sm"
-                    placeholder="Your message"
-                    id="message"
-                  ></textarea>
-                </div>
-                <div className="mt-4">
-                  <button
-                    type="submit"
-                    className="inline-block w-full rounded-lg bg-blue px-5 py-3 font-medium text-white sm:w-auto">
-                    SEND MESSAGE
-                  </button>
-                </div>
-              </form>
+                  <div>
+                    <textarea
+                      className="w-full rounded-lg border-gray-200 p-3 text-sm"
+                      placeholder="Your message"
+                      id="message"
+                    ></textarea>
+                  </div>
+                  <div className="mt-4">
+                    <button
+                      type="submit"
+                      className="inline-block w-full rounded-lg bg-blue px-5 py-3 font-medium text-white sm:w-auto"
+                    >
+                      SEND MESSAGE
+                    </button>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
       </div>
     </>
   );
