@@ -16,45 +16,29 @@ const login = () => {
             <Image src={flagMexico} alt="logo" width={30} />
           </header>
           <main className="max-w-screen-xl mx-auto">
-            <section className="xs:p-8 sm:max-w-[600px] mx-auto mb-5">
+            <section className="xs:p-8 sm:max-w-[600px] mx-auto xs:mb-5 lg:mb-0">
               <h2 className="font-semibold text-2xl text-DarkBlue">
-                Create an account
+                Welcome to you Resimex
               </h2>
-              <span>And start your trip safely with us.</span>
+              <span>Log in to your account.</span>
               <form className="w-full mx-auto rounded-md pt-9 mb-5">
-                <div className="mb-4">
-                  <label
-                    className="block text-gray-700 text-sm font-bold mb-2"
-                    htmlFor="email"
-                  >
-                    Your email{''}
-                    <span className="text-color text-red-600">*</span>
-                  </label>
-                  <input
-                    className="w-full px-3 py-2 border border-gray-300  focus:outline-none focus:border-blue"
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="Please enter your email"
-                  ></input>
-                </div>
                 <div className="mb-4">
                   <label
                     className="block text-gray-700 text-sm font-bold mb-2"
                     htmlFor="name"
                   >
-                    Create username{''}
+                    Your username{''}
                     <span className="text-color text-red-600">*</span>
                   </label>
                   <input
-                    className="w-full px-3 py-2 border border-gray-300 focus:outline-none focus:border-blue"
+                    className="w-full px-3 py-2 border border-gray-300 focus:outline-none focus:border-blue bg-Ligthgray"
                     type="text"
                     id="name"
                     name="name"
                     placeholder="Enter your username"
                   ></input>
                 </div>
-                <div className="mb-4">
+                <div className="mb-2">
                   <label
                     className="block text-gray-700 text-sm font-bold mb-2"
                     htmlFor="password"
@@ -63,32 +47,17 @@ const login = () => {
                     <span className="text-color text-red-600">*</span>
                   </label>
                   <input
-                    className="w-full px-3 py-2 border border-gray-300 focus:outline-none focus:border-blue"
+                    className="w-full px-3 py-2 border border-gray-300 focus:outline-none focus:border-blue bg-Ligthgray"
                     type="password"
                     id="password"
                     name="password"
                     placeholder="Enter password"
                   ></input>
                 </div>
-                <div className="flex items-start mb-6">
-                  <div className="flex items-center h-5">
-                    <input
-                      id="remember"
-                      aria-describedby="remember"
-                      type="checkbox"
-                      className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded"
-                    ></input>
-                  </div>
-                  <div className="text-sm ml-3">
-                    <label
-                      htmlFor="remember"
-                      className="font-normal text-gray-400"
-                    >
-                      By creating an account you are agreeing to our Terms and
-                      Conditions and Privacy Policy
-                    </label>
-                  </div>
-                </div>
+                <Link href="/" className="underline block mb-4">
+                  Forgot you password?
+                  <span className="text-blue"> login</span>
+                </Link>
                 <button
                   className="w-full bg-blue opacity-50 text-white text-sm font-bold py-2 px-4 rounded-md hover:bg-blue hover:opacity-100 transition duration-300"
                   type="submit"
@@ -96,14 +65,14 @@ const login = () => {
                   SIGN UP
                 </button>
               </form>
-              <Link href="/" className="underline block text-center">
-                Already have a member?
-                <span className="text-blue"> login</span>
+              <Link href="/" className="block text-center">
+                Or Don’t have an account?
+                <span className="text-blue underline"> login</span>
               </Link>
             </section>
           </main>
           <div className="xs:hidden lg:block lg:overflow-hidden lg:min-w-full lg:h-24 self-end lg:relative">
-            <div className="xs:skew-y-3 bg-backgroud w-full h-56 absolute -bottom-36"></div>
+            <div className="xs:skew-y-3 bg-backgroud w-full h-56 absolute lg:-bottom-40"></div>
           </div>
         </div>
         <aside className="xs:w-full xs:h-[24.125rem] sm:h-[25rem] md:h-[19rem] xs:relative xs:overflow-hidden xs:-z-10 lg:shrink-[1] lg:overflow-visible lg:w-[550px] lg:h-screen">
@@ -133,7 +102,7 @@ const login = () => {
                     width={160}
                     height={200}
                   ></Image>
-                  <blockquote className="flex flex-col justify-center gap-4 sm:max-w-[250px] lg:absolute lg:bottom-14">
+                  <blockquote className="flex flex-col justify-center gap-4 sm:max-w-[250px] lg:absolute lg:bottom-14 text-White lg:ml-5 lg:gap-1">
                     <p>{e.quote}</p>
                     <footer>{e.name}</footer>
                     <span>{e.country}</span>
