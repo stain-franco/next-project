@@ -1,14 +1,14 @@
-// import Image from 'next/image';
-// import Link from 'next/link';
-// import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper';
-// import 'swiper/css/bundle';
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import carouselInfo from '../../carouselInfo.json';
-// import flagMexico from '../../public/images/emojione-v1_flag-for-mexico.svg';
+import Image from 'next/image';
+import Link from 'next/link';
+import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper';
+import 'swiper/css/bundle';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import carouselInfo from '../../carouselInfo.json';
+import flagMexico from '../../public/images/emojione-v1_flag-for-mexico.svg';
 const signUp = () => {
   return (
     <>
-      {/* <div className="lg:flex">
+      <div className="lg:flex">
         <div className=" lg:w-full">
           <header className=" min-w-full mx-auto xs:h-24 xs:flex xs:justify-start xs:items-center xs:p-8 xs:gap-3 lg:p-4 lg:h-min">
             <h1 className="font-bold text-2xl">resimex</h1>
@@ -142,7 +142,7 @@ const signUp = () => {
             ))}
           </Swiper>
         </aside>
-      </div> */}
+      </div>
     </>
   );
 };
